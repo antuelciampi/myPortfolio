@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+body {
+  color: white;
+}
+
+.content-weather{
+  background-image: url(./assets/weather.jpg);
+}
+
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover{
+  background-image: linear-gradient(
+    to left,
+    rgba(31, 96, 153,0.8),
+    hsla(31, 84%, 57%, 0.5)
+  );
+}
